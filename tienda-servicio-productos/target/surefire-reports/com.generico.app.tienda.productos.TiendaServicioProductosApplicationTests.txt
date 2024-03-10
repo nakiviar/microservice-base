@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.generico.app.tienda.productos.TiendaServicioProductosApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.123 s -- in com.generico.app.tienda.productos.TiendaServicioProductosApplicationTests

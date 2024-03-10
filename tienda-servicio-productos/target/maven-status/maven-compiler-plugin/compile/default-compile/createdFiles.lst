@@ -1,0 +1,6 @@
+com\generico\app\tienda\productos\service\ProductServiceImpl.class
+com\generico\app\tienda\productos\TiendaServicioProductosApplication.class
+com\generico\app\tienda\productos\dao\ProductoDao.class
+com\generico\app\tienda\productos\controller\ProductController.class
+com\generico\app\tienda\productos\models\Product.class
+com\generico\app\tienda\productos\service\IProductService.class
