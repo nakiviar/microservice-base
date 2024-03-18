@@ -14,7 +14,7 @@ import java.util.List;
 public class ItemController {
 
     @Autowired
-    @Qualifier("serviceFeign")
+    @Qualifier("serviceRestTemplate") // This annotation is used to inject a bean by name , before: @Qualifier("serviceFeign")
     private ItemService itemService;
 
     @GetMapping("/listar")
