@@ -16,6 +16,8 @@ public class Product implements Serializable {
     private String name;
     private Double price;
 
+    @Transient
+    private Integer port;
     @Column(name = "created_at")
     @Temporal(TemporalType.DATE)
     private Date createdAt;
@@ -50,6 +52,14 @@ public class Product implements Serializable {
 
     public void setCreatedAt(Date createdAt) {
         this.createdAt = createdAt;
+    }
+
+    public Integer getPort() {
+        return port;
+    }
+
+    public void setPort(Integer port) {
+        this.port = port;
     }
 
     @Override
