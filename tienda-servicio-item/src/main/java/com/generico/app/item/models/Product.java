@@ -9,6 +9,7 @@ public class Product implements java.io.Serializable{
     private String name;
     private Double price;
     private Date createdAt;
+    private Integer port;
 
     public Long getId() {
         return id;
@@ -40,6 +41,14 @@ public class Product implements java.io.Serializable{
 
     public void setCreatedAt(Date createdAt) {
         this.createdAt = createdAt;
+    }
+
+    public Integer getPort() {
+        return port;
+    }
+
+    public void setPort(Integer port) {
+        this.port = port;
     }
 
     @Override
